@@ -1,7 +1,9 @@
 ﻿using System;
 
 namespace DSHashTables
-{
+{/// <summary>
+/// UC1 : Ability to find frequency of words
+/// </summary>
     class Program
     {
         static void Main(string[] args)
