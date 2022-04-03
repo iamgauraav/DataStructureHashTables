@@ -2,7 +2,7 @@
 
 namespace DSHashTables
 {/// <summary>
-/// UC2 : Ability to find frequency of words in paragraph
+/// UC3 : Ability to remove a  words in paragraph
 /// </summary>
     class Program
     {
@@ -30,6 +30,8 @@ namespace DSHashTables
             hash.Add("16", "paranoid");
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
+
+            hash.Remove("17");
 
             string hash0 = hash.Get("0");
             Console.WriteLine("0th index value:" + hash0);
@@ -69,6 +71,8 @@ namespace DSHashTables
             Console.WriteLine("17th index value:" + hash17);
             string hash18 = hash.Get("18");
             Console.WriteLine("18th index value:" + hash18);
+
+
            
 
 
