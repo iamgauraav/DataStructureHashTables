@@ -56,6 +56,7 @@ namespace DSHashTables
             //object initialization(declaration and initialiation at a one time)
             //It doesnot invoke constructor
             KeyValue<K, V> item = new KeyValue<K, V>() { key = key, value = value };
+            //assign values to Key and Value
             linkedList.AddLast(item);
         }
 
@@ -93,6 +94,9 @@ namespace DSHashTables
             return linkedList;
 
         }
+
+        
+
     }
     /// <summary>
     /// this method is for passing Keyvales in linkedlist
